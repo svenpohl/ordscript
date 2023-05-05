@@ -2,7 +2,7 @@
 Proposal of a Turing-complete Protocol for ordinals (Bitcoin-Inscriptions)
 
 
-´´´ js
+``` js
 {
 "p":"ordscript",
 "op":"deploycode",
@@ -11,6 +11,7 @@ Proposal of a Turing-complete Protocol for ordinals (Bitcoin-Inscriptions)
 "code":"0a0b0c0d0e0f10111213...fcfdfeff",
 "entry":"4"
 }
-´´´
+```
+
 
 
