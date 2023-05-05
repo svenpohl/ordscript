@@ -28,7 +28,7 @@ Example-Inscriptions:
 "start":"0",
 "end":"10",
 "init":"00000000000000000000",
-"owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs",
+"owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs"
 }
 ```
 
@@ -44,9 +44,7 @@ Memory-blocks (defined by owner of the deploycode-incription) can only be extend
 "id":"1",
 "caller":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs",
 "entry":"2"
-"start":"0",
-"end":"10",
-"init":"00000000000000000000",
+"parameter":"04050607ff223344efefefa0",
 }
 ```
 
