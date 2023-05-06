@@ -63,6 +63,7 @@ so maybe a ordscript-version will only support 2^32 Bytes of memory. Maybe the o
 will decide to find another consensus. So the first here suggested "setmeta" command is
 "upgrade to v.0.0.2"
 
+# Comment and description
 Basic concept: code, memory-definition and execution are the basic inscription-opcodes. The state of the memory-block will be handled offchain, but code-definition and exec-calls will be settled 100% onchain (similar to the BRC-20 protocol) 
 
 In contrast to "just hashing an offchain-interpreter" will the code-base and all signatures be handled onchain over the protocol. A invalid call (like transfer of a token) will be refused by the community.
