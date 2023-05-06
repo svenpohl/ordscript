@@ -27,7 +27,7 @@ Example-Inscriptions:
 "op":"deploymem",
 "id":"1",
 "start":"0",
-"end":"10",
+"end":"9",
 "init":"00000000000000000000",
 "owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs"
 }
