@@ -58,7 +58,7 @@ Memory-blocks (defined by owner of the deploycode-incription) can only be extend
 }
 ```
 
-For protocoll-updated in the future. The circumstances will change in time, 
+For protocoll-updates in the future. The circumstances will change in time, 
 so maybe a ordscript-version will only support 2^32 Bytes of memory. Maybe the ordscript-community
 will decide to find another consensus. So the first here suggested "setmeta" command is
 "upgrade to v.0.0.2"
