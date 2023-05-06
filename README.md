@@ -6,7 +6,6 @@ This proposal want's to start a public discussion:
 Example-Inscriptions:
 
 # Op-code "deploycode"
-
 ``` js
 {
 "p":"ordscript",
@@ -20,7 +19,6 @@ Example-Inscriptions:
 ```
 
 # Op-code "deploymem"
-
 ``` js
 {
 "p":"ordscript",
@@ -37,7 +35,6 @@ Memory-blocks (defined by owner of the deploycode-incription) can only be extend
 
 
 # Op-code "exec"
-
 ``` js
 {
 "p":"ordscript",
@@ -48,6 +45,23 @@ Memory-blocks (defined by owner of the deploycode-incription) can only be extend
 "parameter":"04050607ff223344efefefa0",
 }
 ```
+
+
+# Op-code "setmeta"
+``` js
+{
+"p":"ordscript",
+"op":"setmeta",
+"owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs",
+"id":"1",
+"meta":"upgrade to v.0.0.2"
+}
+```
+
+For protocoll-updated in the future. The circumstances will change in time, 
+so maybe a ordscript-version will only support 2^32 Bytes of memory. Maybe the ordscript-community
+will decide to find another consensus. So the first here suggested "setmeta" command is
+"upgrade to v.0.0.2"
 
 Basic concept: code, memory-definition and execution are the basic inscription-opcodes. The state of the memory-block will be handled offchain, but code-definition and exec-calls will be settled 100% onchain (similar to the BRC-20 protocol) 
 
