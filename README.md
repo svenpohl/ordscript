@@ -97,18 +97,8 @@ Here a list of possible (still to be implemented) 27 Command-Opcodes for turing-
   { code: 'shr', length: 7, params: 2, example: 'shr ax 04' },
   { code: 'set', length: 13, params: 2, example: 'set ax 00000001' },
   { code: 'mov', length: 7, params: 2, example: 'mov ax bx' },
-  {
-    code: 'mva',
-    length: 14,
-    params: 3,
-    example: 'mva 1 ax 0x00000002'
-  },
-  {
-    code: 'mav',
-    length: 14,
-    params: 3,
-    example: 'mav 4 ax 0x00000002'
-  },
+  { code: 'mva', length: 14, params: 3, example: 'mva 1 ax 0x00000002' },
+  { code: 'mav', length: 14, params: 3, example: 'mav 4 ax 0x00000002' },
   { code: 'mvi', length: 6, params: 2, example: 'mvi 4 ax' },
   { code: 'miv', length: 6, params: 2, example: 'miv 4 bx' },
   { code: 'jmp', length: 11, params: 1, example: 'jmp 00000014' },
