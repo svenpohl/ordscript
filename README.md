@@ -13,7 +13,7 @@ Example-Inscriptions:
 "version":"0.0.1",
 "owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs",
 "id":"1",
-"code":"0a0b0c0d0e0f10111213...fcfdfeff",
+"code":"ordnopnopsetax00000001jmp00000031nopsetbx00000002setbx00000003addaxbxincraxdecrbxnotaxnotbxoraxbxnopnopend",
 "functions":"...",
 "entry":"4"
 }
@@ -154,12 +154,12 @@ Just a sequence of some ordscript opcodes (will be initialized in "deploycode":"
 ``` js
 ord   nop nop  
 set ax 00000001 
-  jmp marke2 nop /* this is cool */ marke1: set bx 00000002  marke2: set bx 00000003      marke3:    
+  jmp mark2 nop /* this is cool */ mark1: set bx 00000002  mark2: set bx 00000003      mark3:    
    add ax bx  final: incr ax   decr bx   not ax   not bx  or ax bx   nop   nop    
 end     
 
 without line breaks:
-...         
+ordnopnopsetax00000001jmp00000031nopsetbx00000002setbx00000003addaxbxincraxdecrbxnotaxnotbxoraxbxnopnopend      
 ```
 
 
