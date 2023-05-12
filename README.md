@@ -14,6 +14,7 @@ Example-Inscriptions:
 "owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs",
 "id":"1",
 "code":"0a0b0c0d0e0f10111213...fcfdfeff",
+"functions":"...",
 "entry":"4"
 }
 ```
@@ -75,6 +76,51 @@ The ordscript - protocoll could start with a simple opcode-interpreter (only byt
 Discussion open - have fun
 (Sven P.)
 
+# Command-Opcodes
+Here a list of possible (still to be implemented) 27 Command-Opcodes for turing-complete instructions.
+
+``` js
+[
+  { code: 'ord', length: 3, params: 0, example: 'ord' },
+  { code: 'nop', length: 3, params: 0, example: 'nop' },
+  { code: 'add', length: 7, params: 2, example: 'add ax bx' },
+  { code: 'sub', length: 7, params: 2, example: 'sub ax bx' },
+  { code: 'mul', length: 7, params: 2, example: 'mul ax bx' },
+  { code: 'div', length: 7, params: 2, example: 'div ax bx' },
+  { code: 'incr', length: 6, params: 1, example: 'incr ax' },
+  { code: 'decr', length: 6, params: 1, example: 'decr ax' },
+  { code: 'and', length: 7, params: 2, example: 'and ax bx' },
+  { code: 'or', length: 6, params: 2, example: 'or ax bx' },
+  { code: 'xor', length: 7, params: 2, example: 'xor ax bx' },
+  { code: 'not', length: 5, params: 1, example: 'not bx' },
+  { code: 'shl', length: 7, params: 2, example: 'shl ax 04' },
+  { code: 'shr', length: 7, params: 2, example: 'shr ax 04' },
+  { code: 'set', length: 13, params: 2, example: 'set ax 00000001' },
+  { code: 'mov', length: 7, params: 2, example: 'mov ax bx' },
+  {
+    code: 'mva',
+    length: 14,
+    params: 3,
+    example: 'mva 1 ax 0x00000002'
+  },
+  {
+    code: 'mav',
+    length: 14,
+    params: 3,
+    example: 'mav 4 ax 0x00000002'
+  },
+  { code: 'mvi', length: 6, params: 2, example: 'mvi 4 ax' },
+  { code: 'miv', length: 6, params: 2, example: 'miv 4 bx' },
+  { code: 'jmp', length: 11, params: 1, example: 'jmp 00000014' },
+  { code: 'cmp', length: 7, params: 2, example: 'cmp ax bx' },
+  { code: 'jie', length: 11, params: 1, example: 'jie 0000004d' },
+  { code: 'jne', length: 11, params: 1, example: 'jne 0000004d' },
+  { code: 'jig', length: 11, params: 1, example: 'jig 0000004d' },
+  { code: 'jil', length: 11, params: 1, example: 'jil 0000004d' },
+  { code: 'end', length: 3, params: 0, example: 'end' }
+]
+
+```
 
 
 
