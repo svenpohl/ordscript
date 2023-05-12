@@ -117,7 +117,7 @@ Here a list of possible (still to be implemented) 27 Command-Opcodes for turing-
 ```js
 
 ax - 32 bit register
-cx - 32 bit register
+bx - 32 bit register
 cx - 32 bit register
 dx - 32 bit register
 ix - 32 bit index register (e.g. for mvi)
