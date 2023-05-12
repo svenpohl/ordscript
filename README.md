@@ -148,7 +148,19 @@ The last-opcode "end" marks the end of every ordscript program. No Parameters.
 ```
 
 
+# Script-example
+Just a sequence of some ordscript opcodes (will be initialized in "deploycode":"code" as breakless code-buffer)
 
+``` js
+ord   nop nop  
+set ax 00000001 
+  jmp marke2 nop /* this is cool */ marke1: set bx 00000002  marke2: set bx 00000003      marke3:    
+   add ax bx  final: incr ax   decr bx   not ax   not bx  or ax bx   nop   nop    
+end     
+
+without line breaks:
+...         
+```
 
 
 
