@@ -112,16 +112,27 @@ Here a list of possible (still to be implemented) 27 Command-Opcodes for turing-
 
 ```
 
+
 # Opcode "ord"
 ``` js
 The entry-opcode of every ordscript program always begins with "ord". No Parameters.
+```
+
+# Opcode "nop"
+``` js
+Just "nop", no operation, only an increment of the pc (program counter) register to 3 bytes . No Parameters.
+```
+
+# Opcode "and"
+``` js
+Binary "and" operation: ax & bx -> result will be written in cx. Parameters: currently only ax and bx in this order
 ```
 
 ...
 
 # Opcode "end"
 ``` js
-The last-opcode "end" marks the end of every every ordscript program. No Parameters.
+The last-opcode "end" marks the end of every ordscript program. No Parameters.
 ```
 
 
