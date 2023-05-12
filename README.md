@@ -14,17 +14,19 @@ Example-Inscriptions:
 "owner":"bc1p7d95end6905m9pskzvvlv3sn7uhrr7sr3rg0wrtedawtdw4r03asg9d0cs",
 "id":"1",
 "code":"ordnopnopsetax00000001jmp00000031nopsetbx00000002setbx00000003addaxbxincraxdecrbxnotaxnotbxoraxbxnopnopend",
-"functions": 
-  [
-  { name: 'save', address: 32, 
-   params: [
-           { name: 'name', type: 'string', address: 14, len: 10 }, 
-           { name: 'id', type: 'uint32', address: 34, len: 4 } 
-           ]
-  }
-],
+"functions": [
+			 { "name": "save", 
+			   "address": 32, 
+				 "params": [
+				         { "name": "name", "type": "string", "address": 14, "len": 10 }, 
+				         { "name": "id", "type": "uint32", "address": 34, "len": 4 } 
+				         ]
+ 			 }
+			],
+
 "entry":"4"
 }
+
 ```
 
 # Op-code "deploymem"
