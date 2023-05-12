@@ -112,6 +112,20 @@ Here a list of possible (still to be implemented) 27 Command-Opcodes for turing-
 
 ```
 
+# Opcode "ord"
+``` js
+The entry-opcode of every ordscript program always begins with "ord". No Parameters.
+```
+
+...
+
+# Opcode "end"
+``` js
+The last-opcode "end" marks the end of every every ordscript program. No Parameters.
+```
+
+
+
 
 
 
