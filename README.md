@@ -113,6 +113,18 @@ Here a list of possible (still to be implemented) 27 Command-Opcodes for turing-
 ```
 
 
+# Register:
+```js
+
+ax - 32 bit register
+cx - 32 bit register
+cx - 32 bit register
+dx - 32 bit register
+ix - 32 bit index register (e.g. for mvi)
+cs - compare status, == 1, > 2, < 3
+
+```
+
 # Opcode "ord"
 ``` js
 The entry-opcode of every ordscript program always begins with "ord". No Parameters.
@@ -134,7 +146,6 @@ Binary "and" operation: ax & bx -> result will be written in cx. Parameters: cur
 ``` js
 The last-opcode "end" marks the end of every ordscript program. No Parameters.
 ```
-
 
 
 
