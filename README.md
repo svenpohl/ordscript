@@ -172,6 +172,12 @@ without line breaks:
 ordnopnopsetax00000001jmp00000031nopsetbx00000002setbx00000003addaxbxincraxdecrbxnotaxnotbxoraxbxnopnopend      
 ```
 
+# Open Issues
+
+* External ordscript function calls (e.g. transfer-function for BRC-20 Token or another token contract
+* Handling of return values
+* ...
+
 
 
 
